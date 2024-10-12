@@ -32,5 +32,25 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/quiz-app.git
+   git clone https://github.com/himanshu027dev/intern_assign
    cd quiz-app
+
+
+### How to run this application
+Run the Application: After the MongoDB server is running, start the Node.js application:
+
+
+```bash
+node app.js
+
+Access the Application: The server will be running on http://localhost:3000. You can use Postman to test the API endpoints as specified in the README file.
+
+Fetch Quizzes: To see the quizzes, you can use the fetchQuizzes.js script included in the repository.
+
+Navigate to the project directory in your terminal.
+Run the script using the following command:
+
+
+
+node fetchQuizzes.js
+This script will make a GET request to the /quiz endpoint and display the available quizzes in the console.
